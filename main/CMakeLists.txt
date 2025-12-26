@@ -1,0 +1,13 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "telemetry_task.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        common
+        network
+        sensor
+        telemetry
+        nvs_flash
+)

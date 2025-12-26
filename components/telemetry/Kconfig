@@ -1,0 +1,21 @@
+menu "Azure IoT Configuration"
+
+config AZURE_IOT_HOSTNAME
+    string "Azure IoT Hub Hostname"
+    default ""
+    help
+        Example: myhub.azure-devices.net
+
+config AZURE_IOT_DEVICE_ID
+    string "Azure IoT Device ID"
+    default ""
+    help
+        Device ID registered in IoT Hub
+
+config AZURE_IOT_SAS_TOKEN
+    string "Azure IoT SAS Token"
+    default ""
+    help
+        SAS token (use only for testing, not production)
+
+endmenu

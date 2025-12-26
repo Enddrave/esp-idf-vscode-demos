@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+        "azure_iot.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        mqtt
+        esp_event
+        common
+        network
+)

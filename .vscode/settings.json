@@ -1,0 +1,8 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPath": "/Users/bhupendra/esp/esp-idf",
+  "idf.toolsPath": "/Users/bhupendra/.espressif",
+  "idf.pythonInstallPath": "/opt/homebrew/bin/python3",
+  "idf.flashType": "UART",
+  "idf.port": "/dev/tty.usbserial-0001"
+}

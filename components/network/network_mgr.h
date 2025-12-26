@@ -1,0 +1,2 @@
+#define NET_CONNECTED_BIT BIT0
+EventGroupHandle_t network_event_group_get(void);
